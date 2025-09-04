@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Opções de Pagamento</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h2>Simulador de Loja</h2>
+  <label>Preço do produto R$:<input id="preco" type="number" required></label>
+  <select name="opcoes" id="opcoes">
+    <option value="aVista">À vista(10% desconto)</option>
+    <option value="parcelado">Parcelado em 3x</option>
+  </select>
+  <button onclick="calcular()">Calcular</button>
+  <div id="resultado"></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
