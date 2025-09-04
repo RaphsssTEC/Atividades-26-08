@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9fafb;
+    padding: 20px;
+    margin: 0;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Inputs, botões e selects universais */
+  input,
+  button,
+  select {
+    margin: 10px 0;
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1.5px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus,
+  button:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  /* Estilo específico para botões */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Área onde resultado e saídas são exibidos */
+  #resultado,
+  #saida,
+  pre {
+    margin-top: 20px;
+    font-weight: 600;
+    white-space: pre-wrap;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    min-height: 40px;
+    color: #222;
+    line-height: 1.4;
+  }
+  
+  /* Pequeno ajuste para labels e textos dentro do body */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  /* Também deixa links e menus simples mais equilibrados */
+  a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #2980b9;
+  }
+  
